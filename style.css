@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#505668, #3a353f);
+
+
+}
+
+#wrapper {
+    background: linear-gradient(#505668, #3a353f);
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+}
+
+h1 {
+    color: #f1ece1;
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+
+}
+
+.head-color {
+    color: #c05850;
+}
+
+.description {
+    color: #f1ece15d;
+    font-family: 'Caveat', cursive;
+    font-size: larger;
+    border-bottom: 0.5px solid #505668;
+    border-top: 0.5px solid #505668;
+    padding: 0.5rem;
+}
+
+#generate-btn {
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    color: #f1ece1;
+    background: #3a353f;
+    font-size: 1.5rem;
+    padding: 0.2rem 1rem;
+    margin: 1rem;
+    border: 1px solid #f1ece1;
+    border-radius: 0.2rem;
+}
+
+#generate-btn:hover {
+    color: #c05850;
+    border: 1px solid #c05850;
+}
+
+#result {
+    text-decoration: none;
+    color: #c05850;
+
+    min-width: 12rem;
+    min-height: 3rem;
+    background: #3a353f;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 0.2rem;
+}
